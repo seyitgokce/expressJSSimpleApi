@@ -1,0 +1,21 @@
+{
+  "name": "sample-nodejs-api",
+  "version": "1.0.0",
+  "description": "Basit bir node.js rest api uygulamasıdır.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "rest",
+    "api"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mssql": "^6.2.1",
+    "tedious": "^9.2.1"
+  }
+}
